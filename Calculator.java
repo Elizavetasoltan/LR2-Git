@@ -7,6 +7,6 @@ public class Calculator {
 
         System.out.println("Первое число: " + a);
         System.out.println("Второе число: " + b);
-        System.out.println("Результат сложения: " + sum);
+        System.out.println("Сумма двух чисел: " + sum);
     }
 }
