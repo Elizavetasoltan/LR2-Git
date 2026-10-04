@@ -4,9 +4,11 @@ public class Calculator {
         int b = 5;
 
         int sum = a + b;
+        int difference = a - b;
 
         System.out.println("Первое число: " + a);
         System.out.println("Второе число: " + b);
-        System.out.println("Сумма двух чисел: " + sum);
+        System.out.println("Результат сложения: " + sum);
+        System.out.println("Результат вычитания: " + difference);
     }
 }
