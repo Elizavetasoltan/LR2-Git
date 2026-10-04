@@ -3,9 +3,10 @@ public class Calculator {
         int a = 10;
         int b = 5;
 
-        System.out.println("Сумма: " + (a + b));
-        System.out.println("Разность: " + (a - b));
-        System.out.println("Произведение: " + (a * b));
-        System.out.println("Частное: " + (a / b));
+        int sum = a + b;
+
+        System.out.println("Первое число: " + a);
+        System.out.println("Второе число: " + b);
+        System.out.println("Результат сложения: " + sum);
     }
 }
